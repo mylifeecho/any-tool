@@ -1,0 +1,18 @@
+name:                any-tool
+version:             0.1.0.0
+synopsis:            Any tool you could imagine
+description:         Any tool you could imagine
+homepage:            http://github.com/mylifeecho/any-tool#readme
+author:              Alexey Rodiontsev
+maintainer:          alex.rodiontsev@gmail.com
+copyright:           2010 Author Here
+category:            Command-line
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable any-tool
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , turtle
